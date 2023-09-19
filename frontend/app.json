@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "finalProject",
+    "slug": "finalProject",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+
+      "splash":{
+        "image": "./assets/splash-screens/ios/splash.png"
+      }
+    },
+    "android": {
+      "splash":{
+        "ldpi":"./assets/splash-screens/android/drawable-ldpi/splash.png",
+        "mdpi":"./assets/splash-screens/android/drawable-mdpi/splash.png",
+        "hdpi":"./assets/splash-screens/android/drawable-hdpi/splash.png",
+        "xhdpi":"./assets/splash-screens/android/drawable-xhdpi/splash.png",
+        "xxhdpi":"./assets/splash-screens/android/drawable-xxhdpi/splash.png",
+        "xxxhdpi":"./assets/splash-screens/android/drawable-xxxhdpi/splash.png",
+        "backgroundColor":"#FDE101"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}

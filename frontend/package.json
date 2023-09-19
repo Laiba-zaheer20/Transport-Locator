@@ -1,0 +1,50 @@
+{
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "eject": "expo eject"
+  },
+  "dependencies": {
+    "@react-native-async-storage/async-storage": "^1.15.5",
+    "@react-native-community/async-storage": "^1.12.1",
+    "@react-navigation/native": "^5.9.4",
+    "@react-navigation/stack": "^5.14.5",
+    "distance-matrix-api": "^1.0.0",
+    "expo": "~41.0.1",
+    "expo-cli": "^4.10.0",
+    "expo-constants": "^11.0.1",
+    "expo-linear-gradient": "^9.2.0",
+    "expo-location": "^12.1.2",
+    "expo-notifications": "^0.12.3",
+    "expo-permissions": "^12.1.1",
+    "expo-status-bar": "~1.0.4",
+    "google-distance-matrix": "^1.1.1",
+    "haversine": "^1.1.1",
+    "pubnub": "^4.32.1",
+    "pubnub-react": "^2.1.0",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "react-google-maps": "^9.4.5",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-41.0.0.tar.gz",
+    "react-native-awesome-alerts": "^1.5.2",
+    "react-native-gesture-handler": "^1.10.3",
+    "react-native-google-places-autocomplete": "^2.2.0",
+    "react-native-linear-gradient": "^2.5.6",
+    "react-native-location": "^2.5.0",
+    "react-native-maps": "0.27.1",
+    "react-native-maps-directions": "^1.8.0",
+    "react-native-onboarding-swiper": "^1.1.4",
+    "react-native-reanimated": "^2.2.0",
+    "react-native-screens": "^3.4.0",
+    "react-native-vector-icons": "^8.1.0",
+    "react-native-web": "~0.13.12",
+    "reanimated-bottom-sheet": "^1.0.0-alpha.22"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.9.0"
+  },
+  "private": true
+}
